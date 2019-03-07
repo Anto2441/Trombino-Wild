@@ -140,6 +140,7 @@ footer {
             font-size: 48px;
             top:22%;
         }
+    }
 
     @media screen and (max-width: 200px) {
         footer li {
@@ -150,3 +151,4 @@ footer {
             width: 300px;
             color: #F36C6C       
             }
+        }
