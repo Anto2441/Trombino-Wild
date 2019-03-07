@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+html, .image-accueil{
+    font-size: 11px;
+    
+}
+
+@media screen and (min-width: 400px) {
+    html, footer {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 640px) {
+    html, footer {
+        font-size: 16px;
+    }
+}
+
+
+
+.marquee{
+    color:rgb(96, 96, 148);
+    font-size: 27px;
+  }
+  
+    
+.image-accueil{
+    width:100%;	
+}
+  
+.titresuper {
+    font-size: 3.4rem;
+    color:red;
+}
+    
+.navbar-nav{
+    font-size: 167%;
+}
+
+.bg-dark {
+    background-color: lightsteelblue;
+}
+
+        
+.fondecran{
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.fondecran p {
+    margin: auto;
+    position:absolute;
+    left: 64%;
+    top: 25%;
+    width: 11%;
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+    font-size: 300%; /* 3rem*/
+    color:rgb(122, 117, 109);
+    box-shadow: 15%;
+}
+
+
+
+.wildlogo{
+    position: absolute;
+    font-size: 24px;
+    z-index: 2;
+    width: 11%;
+    height:10px; 
+}
+
+@media screen and (min-width:992px){
+    .wildlogo, footer{
+        right: 0px;
+        font-size: 12px;
+    }
+}
+
+.navbar a:hover {  
+   font-weight: bold;
+   font-size: 120%;
+}
+
+ 
+html{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+} 
+
+.fondecran span{
+    color:#F36C6C;
+    text-shadow: 45px;
+}
+
+  /*------------------------------------------------------------------
+[ Footer ]*/
+
+footer { 
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+    }
+    
+    li {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    }
+    
+    ul {
+      font-size:200%;
+    }
+
+    footer .fa {
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        background: white;
+        color : grey;
+    }
+      
+    footer .fa:hover {
+        font-size : 35px;
+        text-decoration: none;
+    }
+
+
+    @media screen and (max-width: 200px) {
+        .fondecran p {
+            font-size: 48px;
+            top:22%;
+        }
+
+    @media screen and (max-width: 200px) {
+        footer li {
+            font-size: 123px;
+            top:34522%;
+            text-align: center;
+            display: inline-block;
+            width: 300px;
+            color: #F36C6C       
+            }
