@@ -1,0 +1,276 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact]*/
+.contact {
+    width: 100%;
+    min-height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact {
+    width: 1163px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0px 130px 88px 148px;
+}
+
+.contact-pic img {
+  max-width: 100%;
+}
+
+.contact-form-title {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Formulaire ]*/
+.contact1-form {
+    width: 390px;
+}
+  
+.contact1-form-title {
+    display: block;
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+}
+  
+input.input1 {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+}
+
+input.input1 + .shadow-input1 {
+    border-radius: 25px;
+}
+  
+textarea.input1 {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
+textarea.input1 + .shadow-input1 {
+    border-radius: 25px;
+}
+
+.container-contact1-form-btn {
+      display: flex;
+      justify-content: center;
+}
+  
+.contact1-form-btn {
+    text-align: center;
+    min-width: 193px;
+    height: 50px;
+    border-radius: 25px;
+    background: #f36c6c;
+    font-size: 15px;
+    line-height: 1.5;
+}
+  
+/*---------------------------------------------*/
+.wrap-input1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+  
+.input1 {
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.contact-title
+{
+    position: relative;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+   /*------------------------------------------------------------------
+[ Boutons Réseaux sociaux ]*/
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    text-decoration: none;
+    background: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: grey;
+    color: white;
+  }
+
+
+  /*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 768px) {
+    .map {
+        display: none;
+    }
+
+    .contact1-form {
+        width: 100%;
+      }
+
+}
+
+
+@media screen and (min-width:992px){
+    .wildlogo{
+        right: -46px;  
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+  /*------------------------------------------------------------------
+[ Navbar ]*/
+
+.navbar a:hover { 
+    font-weight: bold;
+    font-size: 120%;
+ }
+
+ .navbar-nav {
+    font-size: 167%;
+}
+
+  /*------------------------------------------------------------------
+[ Footer ]*/
+
+footer { 
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+    }
+    
+    li {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    color: #F36C6C;
+    }
+    
+    ul {
+      font-size:200%;
+    }
+
+    a {
+        color : #F36C6C;
+    }
+
+footer .fa {
+    background: white;
+    color : grey;
+}
+
+footer .fa:hover {
+    font-size: 35px;
+    text-decoration: none;
+}
