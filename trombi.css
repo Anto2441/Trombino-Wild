@@ -1,0 +1,178 @@
+/* Titre */
+
+#team{
+color:#484442;
+text-align: center;
+font-size:50px;
+font-weight: bold;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.lettre{
+	color:#EB744D;
+}
+
+/* Responsive */
+
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+body{
+	margin: 0 auto;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.bloc{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+
+}
+
+.pic1{
+	margin-right: 170px;
+}
+
+.pic2{
+margin-left: 110px;
+}
+
+.pic3{
+margin-right: 180px;
+}
+
+.pic4{
+margin-left: 150px;
+}
+
+/* Filtres photos */
+
+.pic1 img {
+filter: hue-rotate(120deg);
+-webkit-filter: hue-rotate(120deg);
+border-radius: 5%;
+padding-bottom:10px;
+}
+.pic1 img:hover {
+filter: hue-rotate(0deg);
+-webkit-filter: hue-rotate(0deg);
+}
+
+.pic2 img {
+filter: hue-rotate(50deg);
+-webkit-filter: hue-rotate(50deg);
+border-radius: 5%;
+padding-bottom:10px;
+}
+.pic2 img:hover {
+filter: hue-rotate(0deg);
+-webkit-filter: hue-rotate(0deg);
+}
+
+.pic3 img {
+filter: hue-rotate(130deg);
+-webkit-filter: hue-rotate(130deg);
+border-radius: 5%;
+padding-bottom:10px;
+}
+.pic3 img:hover {
+filter: hue-rotate(0deg);
+-webkit-filter: hue-rotate(0deg);
+}
+
+.pic4 img {
+filter: hue-rotate(100deg);
+-webkit-filter: hue-rotate(100deg);
+border-radius: 5%;
+padding-bottom:10px;
+}
+.pic4 img:hover {
+filter: hue-rotate(0deg);
+-webkit-filter: hue-rotate(0deg);
+}
+
+/* Lien pages */
+
+a {
+background-image : url('url_de_mon_image.gif');
+}
+a:hover {
+background-image : url('url_de_mon_image_au_survol.gif');
+}
+
+
+/* Navbar */
+
+.navbar a:hover { 
+    font-weight: bold;
+    font-size: 120%;
+
+ }
+
+ .navbar-nav {
+    font-size: 167%;
+}
+
+ 
+
+
+/* Navbar logo */    
+
+.logo{
+    width:100%;	
+}
+
+.wildlogo{
+    position : absolute;
+    top :8px;
+    z-index: 2;
+    width: 11%; 
+}
+
+@media screen and (min-width:992px){
+    .wildlogo{
+        right: -46px;
+        font-size: 12px;
+    }
+}
+
+/* Footer */
+
+footer { 
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+    }
+    
+    li {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    color: #F36C6C;
+    }
+    
+    ul {
+      font-size:200%;
+    }
+
+    a {
+        color : #F36C6C;
+    }
+
+    .fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+footer .fa {
+    background: white;
+    color : grey;
+}
